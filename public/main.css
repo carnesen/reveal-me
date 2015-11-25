@@ -1,0 +1,18 @@
+.page {
+  margin: auto;
+  width: 60%;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  position: relative;
+  margin-left: 25%;
+}
+
+img {
+  z-index: -1;
+  margin: auto;
+}
