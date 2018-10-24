@@ -1,23 +1,24 @@
 {
   "name": "@carnesen/reveal-me",
   "version": "0.0.0",
+  "main": "server.js",
   "description": "A toy app from coding bootcamp",
   "scripts": {
     "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.13.3",
+    "morgan": "1.6.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/carnesen/reveal-me.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Chris Arnesen",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/carnesen/reveal-me/issues"
   },
-  "homepage": "https://github.com/carnesen/reveal-me#readme",
-  "dependencies": {
-    "express": "4.13.3",
-    "morgan": "1.6.1"
-  }
+  "homepage": "https://github.com/carnesen/reveal-me#readme"
 }
