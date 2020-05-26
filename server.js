@@ -16,6 +16,6 @@ app.use('/', express.static(path.join(__dirname, 'public')));
 
 if (require.main === module) {
   app.listen(port, function() {
-    console.log('Listening on port ' + port);
+    console.log('Listening on http://localhost:' + port);
   });
 }
