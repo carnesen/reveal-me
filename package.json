@@ -9,18 +9,18 @@
 		"test": "./test.sh"
 	},
 	"dependencies": {
-		"express": "4.17.1",
+		"express": "4.17.3",
 		"morgan": "1.10.0"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/carnesen/reveal-me.git"
-	},
+	"repository": "github:carnesen/reveal-me",
 	"keywords": [],
 	"author": "Chris Arnesen",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/carnesen/reveal-me/issues"
 	},
-	"homepage": "https://github.com/carnesen/reveal-me#readme"
+	"homepage": "https://github.com/carnesen/reveal-me#readme",
+	"devDependencies": {
+		"@carnesen/dev": "0.1.1"
+	}
 }
