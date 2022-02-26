@@ -2,9 +2,10 @@
 	"name": "@carnesen/reveal-me",
 	"description": "A toy app from coding boot camp",
 	"private": true,
-	"version": "2020.7.0",
+	"version": "2022.2.0",
 	"main": "server.js",
 	"scripts": {
+		"release": "carnesen-dev release --semverBump date",
 		"start": "node server.js",
 		"test": "./test.sh"
 	},
